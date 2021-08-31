@@ -1,5 +1,5 @@
-import br.com.expensecontrolapplication.entity.Category;
-import br.com.expensecontrolapplication.entity.Expense;
+package br.com.expensecontrolapplication.entity;
+
 import org.junit.Test;
 
 import java.math.BigDecimal;
