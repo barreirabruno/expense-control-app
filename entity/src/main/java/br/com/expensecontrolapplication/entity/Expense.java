@@ -1,9 +1,11 @@
 package br.com.expensecontrolapplication.entity;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 public class Expense {
 
+    private final String exp_id;
     private final BigDecimal exp_price;
     private final String exp_description;
     private final String exp_date;
@@ -11,6 +13,7 @@ public class Expense {
     private final String exp_public_category;
 
     public Expense(BigDecimal exp_price, String exp_description, String exp_date, Category exp_category, String exp_public_category) {
+        this.exp_id = UUID.randomUUID().toString();
         this.exp_price = exp_price;
         this.exp_description = exp_description;
         this.exp_date = exp_date;
@@ -20,6 +23,10 @@ public class Expense {
 
     public static ExpenseBuilder builder() {
         return new ExpenseBuilder();
+    }
+
+    public String getExp_id() {
+        return exp_id;
     }
 
     public BigDecimal getExp_price() {
