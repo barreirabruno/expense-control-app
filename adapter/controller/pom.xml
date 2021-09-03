@@ -30,7 +30,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>expense-control-app/groupId></groupId>
+            <groupId>br.com.expense-control-app</groupId>
             <artifactId>usecases</artifactId>
             <version>${revision}</version>
         </dependency>
