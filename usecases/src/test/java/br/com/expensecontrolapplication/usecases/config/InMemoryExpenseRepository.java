@@ -12,7 +12,6 @@ public class InMemoryExpenseRepository implements ExpenseRepository {
 
     @Override
     public Expense create(Expense expense) {
-        System.out.println("[IN MEMORY DATABASE]" + expense);
         inMemoryDB.put(expense.getExp_id(), expense);
         return expense;
     }

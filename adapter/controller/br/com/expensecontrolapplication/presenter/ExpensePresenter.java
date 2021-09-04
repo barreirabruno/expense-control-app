@@ -1,6 +1,5 @@
 package br.com.expensecontrolapplication.presenter;
 
-import br.com.expensecontrolapplication.entity.Category;
 import br.com.expensecontrolapplication.entity.Expense;
 
 import java.math.BigDecimal;

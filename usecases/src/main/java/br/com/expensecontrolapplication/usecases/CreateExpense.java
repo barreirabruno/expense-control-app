@@ -12,7 +12,6 @@ public class CreateExpense {
     }
 
     public Expense create(final Expense expense) {
-        System.out.println("[EXPENSE REPOSITORY]" + expense);
         var createdExpense = repository.create(expense);
         return createdExpense;
     }
