@@ -57,4 +57,20 @@ public class ExpensePresenter {
     public String getExp_category() {
         return exp_category;
     }
+
+    public void setExp_price(String exp_price) {
+        this.exp_price = exp_price;
+    }
+
+    public void setExp_description(String exp_description) {
+        this.exp_description = exp_description;
+    }
+
+    public void setExp_date(String exp_date) {
+        this.exp_date = exp_date;
+    }
+
+    public void setExp_category(String exp_category) {
+        this.exp_category = exp_category;
+    }
 }
