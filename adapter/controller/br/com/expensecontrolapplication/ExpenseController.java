@@ -3,11 +3,11 @@ package br.com.expensecontrolapplication;
 import br.com.expensecontrolapplication.presenter.ExpensePresenter;
 import br.com.expensecontrolapplication.usecases.CreateExpense;
 
-public class UserController {
+public class ExpenseController {
 
     private final CreateExpense createExpense;
 
-    public UserController(CreateExpense createExpense) {
+    public ExpenseController(CreateExpense createExpense) {
         this.createExpense = createExpense;
     }
 
