@@ -12,6 +12,7 @@
         <module>entity</module>
         <module>usecases</module>
         <module>adapter/repository/in-memory-db</module>
+        <module>adapter/repository/spring-jdbc</module>
         <module>adapter/controller</module>
         <module>applications/terminal-app</module>
     </modules>
